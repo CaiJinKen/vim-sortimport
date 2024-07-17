@@ -2,7 +2,7 @@ function! s:SortImport()
     let cmd = [
         \ '!sortimport',
         \]
-    let cmd = add(cmd, '-file' . ' ' . expand('%'))
+    let cmd = add(cmd, '-w' . ' ' . '-file' . ' ' . expand('%'))
 
     execute join(cmd)
 endfunction
