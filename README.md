@@ -15,7 +15,7 @@ Now add the plugin to vim
 I use [vim-plug](https://github.com/junegunn/vim-plug) and in that you can add using
 
 ```vim
-Plug 'CaiJinKen/sortimport'
+Plug 'CaiJinKen/vim-sortimport'
 ```
 
 and run `:PlugInstall`
