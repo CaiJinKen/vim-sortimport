@@ -7,7 +7,7 @@ vim/neo-vim plugin for sort/group imports in current golang
 Install [sortimport](https://github.com/CaiJinKen/sortimport) dependency by doing
 
 ```bash
-go install github.com/CaiJinKen/sortimport@v0.1.0
+go install github.com/CaiJinKen/sortimport@latest
 ```
 
 Now add the plugin to vim
